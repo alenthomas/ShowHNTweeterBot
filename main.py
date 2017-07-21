@@ -20,7 +20,6 @@ def tw_format(data):
 def tweet_now(data):
     data = tw_format(data)
     twitter.update_status(status=data)
-    pass
 
 try:
     while True:
